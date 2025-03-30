@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formContainer">
+        <h3>Pizza</h3>
+        <form action="">
+            <div class="inputContainer">
+                <label for="">First Name</label>
+                <input required type="text" name="fname" placeholder="what type pizza">
+            </div>
+            <div class="inputContainer">
+                <label for="">Second Name</label>
+                <input required type="text" name="sname" placeholder="your type pizza">
+            </div>
+            <div class="inputContainer">
+                <label for="">Amount</label>
+                <input required type="number" name="sname" placeholder="Amount">
+            </div>
+            <div class="inputContainer">
+                <label for="">Promo code</label>
+                <input type="password" name="code" placeholder="code">
+            </div>
+            <div class="inputContainer">
+                <label for="">Delivery day</label>
+                <input type="date" name="date" placeholder="date">
+            </div>
+            <div class="inputContainer">
+                <label for="">Delivery time</label>
+                <input type="time" name="time" placeholder="time">
+            </div>
+            <!-- <div class="inputContainer">
+                <label for="">222</label>
+                <input type="datetime-local" name="222" placeholder="222">
+            </div> час та день разом-->
+            <div class="inputContainer">
+                <label for="">Coupon upload</label>
+                <input type="file" name="Coupon" placeholder="Coupon">
+            </div>
+            <div class="inputContainer">
+                <label for="">Pizza color</label>
+                <input type="color" name="color" placeholder="color" value="#ffffff">
+            </div>
+            <div class="inputContainer">
+                <label for="">email</label>
+                <input type="email" name="email" placeholder=" youremail@gmail.com">
+            </div>
+            <div class="inputContainer">
+                <label for="">Telephone</label>
+                <input type="tel" name="tel" placeholder="777777777" value="+380">
+            </div>
+            <!-- <div class="inputContainer">
+                <label for="">Image</label>
+                <input type="image" name="image">
+            </div> -->
+            <div class="inputContainer">
+                <label for="Size">Size</label>
+                <div class="row">
+                    <div class="rowItem">
+                        <label for="">15cm</label>
+                        <input type="radio" name="size" value="15">
+                    </div>
+                    <div class="rowItem">
+                        <label for="">30cm</label>
+                        <input checked type="radio" name="size" value="30">
+                    </div>
+                    <div class="rowItem">
+                        <label for="">45cm</label>
+                        <input type="radio" name="size" value="45">
+                    </div>
+                </div>
+            </div>
+           <div class="inputContainer">
+                <label for="name">Addons</label>
+                <div class="row">
+                    <div class="rowItem">
+                        <label for="">toamto</label>
+                        <input type="checkbox" name="toamto">
+                    </div>
+                    <div class="rowItem">
+                        <label for="">cheeze</label>
+                        <input type="checkbox" name="cheeze">
+                    </div>
+                    <div class="rowItem">
+                        <label for="">paperoni</label>
+                        <input type="checkbox" name="paperoni">
+                    </div>
+                </div>
+            </div>
+            <div class="inputContainer">
+                <label for="">Choose pizza</label>
+                <select name="pizza" id="">
+                    <option value="paperoni">paperoni</option>
+                    <option value="4cheeze">4cheeze</option>
+                    <option selected value="pineapple">pineapple</option>
+                    <option value="margarita">margarita</option>
+                </select>
+            </div>
+            <div class="inputContainer">
+                <label for="">Hot range</label>
+                <input type="range" name="Hot range" min="40" max="80">
+            </div>
+            <div class="inputContainer">
+                <label for="">Leave comment</label>
+                <textarea name="Comment" placeholder="comment" id=""></textarea>
+            </div>
+            <div class="inputContainer">
+                <input type="submit" value="submit" name="submit">
+            </div>
+            <div class="inputContainer">
+                <input type="reset" value="reset" name="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
